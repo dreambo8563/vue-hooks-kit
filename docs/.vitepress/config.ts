@@ -3,6 +3,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: 'My SDK',
   description: 'Vue Hooks SDK 文档',
+  base: '/vue-hooks-kit/',
   themeConfig: {
     nav: [
       { text: '首页', link: '/' },

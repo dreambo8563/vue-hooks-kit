@@ -1,0 +1,1 @@
+import{_ as e,c as s,o as t,ae as i}from"./chunks/framework.BycBMcqT.js";const _=JSON.parse('{"title":"My SDK","description":"","frontmatter":{},"headers":[],"relativePath":"index.md","filePath":"index.md"}'),n={name:"index.md"};function d(o,a,r,l,p,h){return t(),s("div",null,[...a[0]||(a[0]=[i("",4)])])}const k=e(n,[["render",d]]);export{_ as __pageData,k as default};
