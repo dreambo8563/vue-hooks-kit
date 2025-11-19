@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,Symbol.toStringTag,{value:"Module"});const e=require("vue");function r(){const n=e.ref(0),o=e.ref(0);function t(u){n.value=u.clientX,o.value=u.clientY}return e.onMounted(()=>window.addEventListener("mousemove",t)),e.onUnmounted(()=>window.removeEventListener("mousemove",t)),{x:n,y:o}}exports.useMouse=r;
